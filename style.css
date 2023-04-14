@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+    --primaryColor: #5E3BEE;
+    --secondatyColor: #1C1E53;
+    --fontFamily: 'Roboto', sans-serif;
+}
+
+* {
+    font-family: var(--fontFamily);
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+}
+
+.logo {
+    flex: 1;
+}
+
+.header-container {
+    align-items: center;
+    background-color: #fff;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 100px;
+}
+
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    flex: 1;
+}
+
+.header .nav-bar a {
+    color: #000;
+}
+
+
+a {
+    text-decoration-color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.btn-contact {
+    flex: 1;
+    align-items: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-contact a {
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+}
+
+.firstPara {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    font-family: var(--fontFamily);
+    background-color: #F5FCFF;
+    align-items: center;
+}
+
+.firstPara h3 {
+    font-size: 36px;
+}
+
+.firstPara h1 {
+    font-size: 90px;
+}
+
+.firstPara p {
+    font-size: 24px;
+}
+
+.firstText {
+    padding: 0px 75px 0px 0px;
+}
+
+.btn-getInTouch {
+    width: 20%;
+    height: 60px;
+    color: bisque;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--primaryColor);
+    font-size: 24px;
+}
+
+.secondPara {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    margin-top: 50px;
+    font-family: var(--fontFamily);
+    background-color: #F5FCFF;
+    align-items: center;
+}
+
+.secondPara h3 {
+    font-size: 36px;
+}
+
+.secondPara h1 {
+    font-size: 90px;
+}
+
+.secondPara p {
+    font-size: 24px;
+}
+
+.secondText {
+    padding: 0px 0px 0px 75px;
+}
+
+.skillsText {
+    padding: 25px 0px 25px 100px;
+}
+
+.skillsCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.skillsCards div{
+    width: 20%;
+    background-color: #F5FCFF;
+    border: 1px solid var(--primaryColor);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.projectsIntro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+
+.projectsCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+.projectsCards div{
+    width: 26%;
+    background-color: #F5FCFF;
+}
+
+.projectsCards div h2 {
+    padding: 10px 25px 0px 25px;
+}
+
+.projectsCards div p {
+    padding: 10px 25px 0px 25px;
+}
+
+.projectsCards div button {
+    margin: 0px 25px 25px 25px;
+}
+
+.projectsButton {
+    padding: 16px 24px;
+    outline: none;
+    border: none;
+    border-radius: 10.67px;
+    background-color: #E62872;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projectsButton img {
+    height: 24px;
+}
+
+.projectsCards button {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primaryColor);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F5FCFF;
+    color: #000;
+    padding: 8px 2px;
+    font-weight: bold;
+}
+
+.projectsCards button img {
+    height: 16px;
+}
+
+.testimonials {
+    padding: 25px 100px 100px 100px;
+    background-color: #F5FCFF;
+    margin: 100px 0;
+}
+
+.testimonialsCards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonialsIntro {
+    margin-bottom: 100px;
+}
+
+.testimonialsCards > div {
+    width: 28%;
+    background-color: transparent;
+    border: 1px solid #006B6A;
+    border-radius: 7px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.testimonialsCards > div > img {
+    height: 20px;
+}
+
+.testimonialsCards > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonialsCards > div > div img {
+    height: 60px;
+}
+
+.testimonialsCards > div > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.testimonialsCards > div > div > div > p {
+    margin: 0;
+}
+
+.testimonialsCards > div > div > div > p:nth-child(1) {
+    font-weight: bold;
+}
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contactIntro  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactIntro h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contactIntro h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contactForm {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input input {
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid var(--primaryColor);
+    border-radius: 6px;
+    width: 90%;
+}
+
+.oneInput select {
+    padding: 10px 5px;
+    border: none;
+    border: 1px solid var(--primaryColor);
+    border-radius: 6px;
+    width: 100%;
+}
+
+.twoInputs {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.oneInput textArea {
+    border: none;
+    border: 1px solid var(--primaryColor);
+    border-radius: 6px;
+    width: 100%;
+}
+
+.oneInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.twoInputs div {
+    flex: 1;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton {
+    padding: 14px 28px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+
+
+footer {
+    margin-top: 7rem;
+    padding: 25px 100px 150px 100px;
+  }
+  
+  .footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-1 > img {
+    width: 150px;
+    height: 40px;
+  }
+  
+  .footer-tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  
+  .footer-tags > div {
+    margin-right: 15px;
+  }
+  
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  
+  .footer-social > img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-2 {
+    margin-top: 3rem;
+    height: 1px;
+    background-color: rgb(189, 189, 189);
+  }
+  
+  .footer-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .footer-3-tags {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-3-tags > div {
+    margin-right: 15px;
+  }
+  
